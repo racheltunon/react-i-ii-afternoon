@@ -1,0 +1,157 @@
+body {
+  background: black;
+  margin: 0;
+
+  height: 100vh;
+  
+}
+
+.nav {
+  border: solid rgb(52,165,218);
+  display: flex;
+  align-items: center;
+  background: rgb(52,165,218);
+  height: 100px;
+  width: 100vw;
+}
+#home {
+  margin-left: 80px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.home {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  background: rgb(235,235,235);
+  height: 60vh;
+  width: 65vw;
+  margin-bottom: 30px;
+  
+}
+#num {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+#name {
+  margin-left: 50px;
+  font-size: 35px;
+  border-bottom: solid rgb(52,165,218);
+  width: 315px;
+  margin-top: 0px;
+}
+.from {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-left:50px;
+  
+}
+#from {
+  font-weight: bold;
+  
+
+}
+#from2 {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.job {
+  display: flex;
+  flex-direction: row;
+  margin-left:50px;
+ 
+}
+#job {
+  font-weight: bold;
+}
+#title {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.employer {
+  display: flex;
+  flex-direction: row;
+  margin-left:50px;
+
+}
+#employer1 {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.favMovies {
+  display: flex;
+  flex-direction: row;
+  margin-left:50px;
+}
+#movies {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.buttons {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+}
+#previous {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+#next {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.black_diamond {
+
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+#edit {
+  border-radius: 15px;
+  width: 75px;
+  height: 35px;
+  background: rgb(52,165,218);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#delete {
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  background: rgb(52,165,218);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#new{
+  border-radius: 15px;
+  width: 75px;
+  height: 35px;
+  background: rgb(52,165,218);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
